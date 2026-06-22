@@ -7,10 +7,10 @@ int del(stu *s, int n, char id[]){
                 s[j] = s[j + 1];
             }
             n--;
-            printf("删除成功\n");
+            printf("鍒犻櫎鎴愬姛\n");
             return n;
         }
     }
-    printf("未找到该学号的学生\n");
+    printf("鏈壘鍒拌瀛﹀彿鐨勫鐢焅n");
     return n;
 }
